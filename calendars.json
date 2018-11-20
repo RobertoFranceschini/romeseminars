@@ -2,6 +2,7 @@
 { "id":"khru04pj7oobb08lffd9b42o5t8cmkp1%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/98.ics?from=-7d", "color":"lnf", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=98", "name":"Frascati Conferences and Workshops"}
 { "id":"l84pd0f8vvfseqjbsiqs9nmaq819hnv0%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/636.ics?from=-7d", "color":"lnf", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=636", "name":"Frascati Mini-Workshops"}
 { "id":"hkl5oi3cemmeuvpqf52g142gqbofion8%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/121.ics?from=-7d", "color":"lnf", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=121", "name":"Frascati General Seminars"}
+{ "id":"qrhfg1tjtq7s37gj8ui0s2llbfdb71e8@import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/1152.ics?from=-7d", "color":"lnf", "indico":"http://agenda.infn.it/export/categ/1152.ics?from=-7d", "name":"Frascati Theory Group Workshops and Institutes"}
 { "id":"7hh58l7lu51cuurt7vs98aseks%40group.calendar.google.com", "ics":"", "color":"rm1", "indico":"", "name":"Roma1"}
 { "id":"6649fkecfecseb9d3pif3fmthb3blgb5%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/141.ics?from=-7d", "color":"rm1", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=141", "name":"Roma1 INFN History of Physics Seminars"}
 { "id":"dbbusi73lpns4kqd3me5sp93m9qkgq95%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/663.ics?from=-7d", "color":"rm1", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=663", "name":"Roma1 INFN Theoretical Seminars"}
@@ -15,6 +16,10 @@
 { "id":"10cf44sd3gsfmuiqids1gpvco02m3ln6%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/465.ics?from=-7d", "color":"rm3", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=465", "name":"Roma3 INFN Conferences and Workshops"}
 { "id":"fjco7qt1s0i6dj2k5htbnn3qgt6ccjvc%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/94.ics?from=-7d", "color":"rm3", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=94", "name":"Roma3 INFN Mini-Workshops"}
 { "id":"cv2hustmht2b1eka93r2s7v6fof0urue%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/105.ics?from=-7d", "color":"rm3", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=105", "name":"Roma3 INFN Seminars"}
+{ "id":"nmksqc5s9shlm22pmors8h903647qimd%40import.calendar.google.com", "ics":"", "color":"rm2", "indico":"", "name":"Space Science Data Center"}
+{ "id":"5vfc22kuqa0pf0o0gdfq5t65vj17f7vo%40import.calendar.google.com", "ics":"", "color":"rm2", "indico":"", "name":"Center for Mathematics and Theoretical Physics"}
+{ "id":"5vfc22kuqa0pf0o0gdfq5t65vj17f7vo%40import.calendar.google.com", "ics":"", "color":"rm2", "indico":"", "name":"Roma2"}
+{ "id":"q8h2mthcmqvlij48s05u240br6sncudv%40import.calendar.google.com", "ics":"http://agenda.infn.it/export/categ/137.ics?from=-7d", "color":"rm1", "indico":"https://agenda.infn.it/categoryDisplay.py?categId=137", "name":"Roma1 Astrophysics"}
 { "id":"nmksqc5s9shlm22pmors8h903647qimd%40import.calendar.google.com", "ics":"", "color":"rm2", "indico":"", "name":"Space Science Data Center"}
 { "id":"5vfc22kuqa0pf0o0gdfq5t65vj17f7vo%40import.calendar.google.com", "ics":"", "color":"rm2", "indico":"", "name":"Center for Mathematics and Theoretical Physics"}
 { "id":"5vfc22kuqa0pf0o0gdfq5t65vj17f7vo%40import.calendar.google.com", "ics":"", "color":"rm2", "indico":"", "name":"Roma2"}
