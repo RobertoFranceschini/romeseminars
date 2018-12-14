@@ -4,7 +4,7 @@
 - pay attention to spurious new lines introduced by cut-paste
 
 
-## To Add a calendars
+## To Add a calendar
 
 - subscribe to this calendar using the "Add Calendar" function in Google calendar (if it is a iCal calendar from a URL use "import URL"; this is how INDICO calendars can be imported)
 - read the CalendarID in the settings page of the created calendars
