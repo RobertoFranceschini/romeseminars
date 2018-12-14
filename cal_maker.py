@@ -29,3 +29,12 @@ srcstring="https://calendar.google.com/calendar/embed?title="+title+"&amp;mode=A
 iframe='<iframe src="'+srcstring+' style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>'
 
 print(iframe)
+print('%%%%%%% the part above must be pasted in the web page editor to make a calendar widget %%%%%%%%%')
+
+print('%%%%%%% the part below must be pasted in the cals_json list in the script on google %%%%%%%%%')
+
+with open(calendar_json, 'r') as f:
+    for line in f:
+        if line[0] != '#':
+            _line= line.replace('%40', '@')
+            print('cals_json.push(\''+_line.rstrip()+'\');')
