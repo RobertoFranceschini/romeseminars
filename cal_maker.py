@@ -3,8 +3,27 @@ from urllib.parse import quote
 import json
 import ijson # should be able to read only the values you need
 #import os
+import argparse
 
-calendar_json = "calendars.json"
+'''
+Output gives two outputs, one above and one below the \%\%\%\%\%\%\%\% (for best results is advisable to redirect its output to file to no mess up newlines, that is.
+cal_maker.py > topaste. Then you can open `topaste` in a text editor and copy the text)
+copy the output above the \%\%\%\%\% in the webpage editor. You have to edit the raw HTML and replace the old code for the calendar widget. Beware that the code you paste does not look like the one you are going to paste in, because google process what you paste and transforms it in the actual widget.
+copy the output below the \%\%\%\%\% to redefine the cals_json array in the google script (you can find it from https://script.google.com/home/ pay attention that calendars ID must use @ and not \%40, cal_maker.py should make the change automatically but please check
+'''
+
+
+parser = argparse.ArgumentParser(description='Process a JSON file to produce a valid Google Calendar widget and AppScript variables for the automatic generation of a PDF calendar.', usage='Copy')
+
+
+parser.add_argument('--file',
+                    default='calendars.json',
+                    help='the JSON file to process (default: calendars.json)')
+
+args = parser.parse_args()
+
+#calendar_json = "calendars.json"
+calendar_json=args.file
 
 color_map={}
 #
