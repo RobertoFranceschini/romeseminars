@@ -4,6 +4,6 @@
 { "id":"7j3iv2u8cnkji08i2ap8prddejikpnfd@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/104.ics?from=-31d", "color":"lnf", "indico":"https://indico.cern.ch/category/104/", "name":"CERN TH String Theory"}
 { "id":"9k6circ2fvdg40r9ou7n4baoc86nsq9r@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/2387.ics?from=-31d", "color":"lnf", "indico":"https://indico.cern.ch/category/2387/", "name":"CERN TH BSM"}
 { "id":"5jaqfsshb0ghkjbldgepo48au70r6i8j@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/375.ics?from=-31d", "color":"lnf", "indico":"https://indico.cern.ch/category/375/", "name":"CERN TH CosmoCoffee"}
-{ "id":"v4iv3gqk3e8hv1vocoovsrmqc1cjkf99@import.calendar.google.com", "ics":"https://agenda.infn.it/event/22106/event.ics?detail=contributions", "color":"lnf", "indico":"https://agenda.infn.it/event/22106", "name":"Newton Seminars"}
+{ "id":"v4iv3gqk3e8hv1vocoovsrmqc1cjkf99@import.calendar.google.com", "ics":"https://agenda.infn.it/event/22106/event.ics?detail=contributions", "color":"rm3", "indico":"https://agenda.infn.it/event/22106", "name":"Newton Seminars"}
 { "id":"pl3crtfkhopsl7l7frfg73fr0o@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Online Seminars"}
 { "id":"0mgrcnpaqie8ghmg3a4n7q644o@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Latin America Webinars On Physics"}
