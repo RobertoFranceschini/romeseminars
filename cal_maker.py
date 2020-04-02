@@ -20,10 +20,15 @@ parser.add_argument('--file',
                     default='calendars.json',
                     help='the JSON file to process (default: calendars.json)')
 
+parser.add_argument('--title',
+                    default='Rome Physics Seminars (Theoretical Physics)',
+                    help='The title displayed in the web page')
+
 args = parser.parse_args()
 
 #calendar_json = "calendars.json"
 calendar_json=args.file
+title=args.title
 
 color_map={}
 #
@@ -39,7 +44,7 @@ with open(calendar_json, 'r') as f:
             calendar_data = json.loads(line) #it is now a dictionary
             others+='src='+calendar_data['id']+'&amp;color=%23'+color_map[calendar_data['color']]+'&amp;'
 
-title=quote('Rome Physics Seminars (Theoretical Physics)')
+#title=quote('Rome Physics Seminars (Theoretical Physics)')
 #print(title)
 #print('\n')
 
