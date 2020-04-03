@@ -6,4 +6,5 @@
 { "id":"5jaqfsshb0ghkjbldgepo48au70r6i8j@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/375.ics?from=-31d", "color":"lnf", "indico":"https://indico.cern.ch/category/375/", "name":"CERN TH CosmoCoffee"}
 { "id":"v4iv3gqk3e8hv1vocoovsrmqc1cjkf99@import.calendar.google.com", "ics":"https://agenda.infn.it/event/22106/event.ics?detail=contributions", "color":"rm3", "indico":"https://agenda.infn.it/event/22106", "name":"Newton Seminars"}
 { "id":"pl3crtfkhopsl7l7frfg73fr0o@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Online Seminars"}
-{ "id":"0mgrcnpaqie8ghmg3a4n7q644o@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Latin America Webinars On Physics"}
+{ "id":"0mgrcnpaqie8ghmg3a4n7q644o@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"","URL":"https://lawphysics.wordpress.com/", "name":"Latin America Webinars On Physics"}
+{ "id":"6enrq54a9oj808if1uv5gd5n7mcm9d92@import.calendar.google.com", "ics":"http://indico.desy.de/indico/export/categ/320.ics?from=-7d", "color":"lnf", "indico":"http://indico.desy.de/indico/export/categ/320.ics?from=-7d", "name":"DESY Particle and Astroparticle Physics Colloquium Hamburg"}
