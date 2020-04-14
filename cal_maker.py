@@ -4,6 +4,7 @@ import json
 import ijson # should be able to read only the values you need
 #import os
 import argparse
+from flask_table import Table, Col
 
 '''
 Output gives two outputs, one above and one below the \%\%\%\%\%\%\%\% (for best results is advisable to redirect its output to file to no mess up newlines, that is.
@@ -37,16 +38,46 @@ color_map['rm2']='528800'
 color_map['rm3']='2952A3'
 color_map['lnf']='AB8B00'
 
+# Declare your table
+class ItemTable(Table):
+    name = Col('Name')
+    #description = Col('Description')
+
+
+HTMLTableHead='<table>\
+<thead>\
+<tr><th>Seminar Series</th></tr>\
+</thead>'
+HTMLTableBody="<tbody>"
+#<tr><td>Name2</td><td>Description2</td></tr>
+#<tr><td>Name3</td><td>Description3</td></tr>
+#</tbody>
+#</table>"
+
+HTMLList=''
 others=''
 with open(calendar_json, 'r') as f:
     for line in f:
         if line[0] != '#':
             calendar_data = json.loads(line) #it is now a dictionary
             others+='src='+calendar_data['id']+'&amp;color=%23'+color_map[calendar_data['color']]+'&amp;'
+            try:
+                _link = calendar_data["link"]
+            except KeyError:
+                _link = calendar_data["indico"]
 
+            _Name=calendar_data["name"]
+            HTMLTableBody+="<tr><td><a href=\""+_link+"\">"+_Name+"</a></td></tr>"
+            HTMLList+="<li><a href=\""+_link+"\">"+_Name+"</a></li>"
+
+
+HTMLTableBody+="</tbody></table>"
+
+HTMLTable=HTMLTableHead+HTMLTableBody
 #title=quote('Rome Physics Seminars (Theoretical Physics)')
 #print(title)
 #print('\n')
+
 
 srcstring="https://calendar.google.com/calendar/embed?title="+title+"&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;"+others+'ctz=Europe%2FRome"'
 
@@ -54,7 +85,10 @@ iframe='<iframe src="'+srcstring+' style="border-width:0" width="100%" height="6
 
 print(iframe)
 print('%%%%%%% the part above must be pasted in the web page editor to make a calendar widget %%%%%%%%%')
-
+print('%%%%%%% HTML TABLE %%%%%%%%%')
+print(HTMLTable)
+print('%%%%%%% HTML LIST %%%%%%%%%')
+print(HTMLList)
 print('%%%%%%% the part below must be pasted in the cals_json list in the script on google %%%%%%%%%')
 
 with open(calendar_json, 'r') as f:
