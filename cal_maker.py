@@ -6,8 +6,7 @@ import ijson # should be able to read only the values you need
 import argparse
 from flask_table import Table, Col
 
-_usage=
-'''
+_usage='''
 Output gives three outputs, separated by \%\%\%\%\%\%\%\% (for best results is advisable to redirect its output to file to no mess up newlines, that is.
 cal_maker.py > topaste. Then you can open `topaste` in a text editor and copy the text)
 - copy the `FIRST OUTPUT BLOCK` above the \%\%\%\%\% in the Google Site webpage editor. You have to edit the raw HTML and replace the old code for the `calendar widget`. Beware that the code you paste does not look like the one you are going to paste in, because google process what you paste and transforms it in the actual widget.
