@@ -5,6 +5,7 @@ import ijson # should be able to read only the values you need
 #import os
 import argparse
 from flask_table import Table, Col
+import random
 
 _usage='''
 Output gives three outputs, separated by \%\%\%\%\%\%\%\% (for best results is advisable to redirect its output to file to no mess up newlines, that is.
@@ -58,18 +59,21 @@ HTMLTableBody="<tbody>"
 HTMLList=''
 others=''
 with open(calendar_json, 'r') as f:
-    for line in f:
-        if line[0] != '#':
-            calendar_data = json.loads(line) #it is now a dictionary
-            others+='src='+calendar_data['id']+'&amp;color=%23'+color_map[calendar_data['color']]+'&amp;'
-            try:
-                _link = calendar_data["link"]
-            except KeyError:
-                _link = calendar_data["indico"]
+    lines = [line for line in f]
 
-            _Name=calendar_data["name"]
-            HTMLTableBody+="<tr><td><a href=\""+_link+"\">"+_Name+"</a></td></tr>"
-            HTMLList+="<li><a href=\""+_link+"\">"+_Name+"</a></li>"
+random.shuffle(lines)
+for line in lines:
+    if line[0] != '#':
+        calendar_data = json.loads(line) #it is now a dictionary
+        others+='src='+calendar_data['id']+'&amp;color=%23'+color_map[calendar_data['color']]+'&amp;'
+        try:
+            _link = calendar_data["link"]
+        except KeyError:
+            _link = calendar_data["indico"]
+
+        _Name=calendar_data["name"]
+        HTMLTableBody+="<tr><td><a href=\""+_link+"\">"+_Name+"</a></td></tr>"
+        HTMLList+="<li><a href=\""+_link+"\">"+_Name+"</a></li>"
 
 
 HTMLTableBody+="</tbody></table>"
