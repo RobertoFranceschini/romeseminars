@@ -22,3 +22,4 @@
 { "id":"02cfnhb7sct7uftsukimo7a3v4@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Simons Bootstrap Collaboration"}
 { "id":"n8505gnsu0uiu0qiq0mfejbjn0@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Virtual lattice Field Theory Colloquium Series","link":"http://ctp.lns.mit.edu/latticecolloq/"}
 { "id":"kjjh1m0i7lkgj8tn8k57jrip1fja864a@import.calendar.google.com", "ics":"https://indico.in2p3.fr/export/categ/870.ics?from=-31d", "color":"lnf", "indico":"", "name":"Virtual Particle Physics in Paris","link":"https://indico.in2p3.fr/category/870/"}
+{ "id":"52gthc0r04k0eokjt5rujpd7hdgo17ah@import.calendar.google.com", "ics":"https://higgs.ph.ed.ac.uk/colloquia/feed-src.ics", "color":"lnf", "indico":"", "name":"Higgs Centre for Theoretical Physics Colloquia","link":"https://higgs.ph.ed.ac.uk/colloquia/"}
