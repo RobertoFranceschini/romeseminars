@@ -4,3 +4,6 @@ calendars.json.mine
 topaste
 *backup*debug*
 .DS_Store
+*.b.json
+*.csv
+*.pyc
