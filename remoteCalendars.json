@@ -23,3 +23,5 @@
 { "id":"kjjh1m0i7lkgj8tn8k57jrip1fja864a@import.calendar.google.com", "ics":"https://indico.in2p3.fr/export/categ/870.ics?from=-31d", "color":"lnf", "indico":"https://indico.in2p3.fr/category/870/", "name":"Virtual Particle Physics in Paris","link":"https://indico.in2p3.fr/category/870/"}
 { "id":"", "ics":"https://higgs.ph.ed.ac.uk/colloquia/feed-src.ics", "color":"lnf", "indico":"", "name":"Higgs Centre for Theoretical Physics Colloquia","link":"https://higgs.ph.ed.ac.uk/colloquia/"}
 { "id":"v4iv3gqk3e8hv1vocoovsrmqc1cjkf99@import.calendar.google.com", "ics":"https://agenda.infn.it/event/22106/event.ics?detail=contributions", "color":"rm3", "indico":"https://agenda.infn.it/event/22106/", "name":"Newton Seminars"}
+{ "id":"", "ics":"https://www.ph.ed.ac.uk/ical/ppt.ics", "color":"lnf", "indico":"", "name":"Particle
+Physics Theory Seminars in Edinburgh","link":"https://www.ph.ed.ac.uk/events/particle-physics-theory-seminars"}
