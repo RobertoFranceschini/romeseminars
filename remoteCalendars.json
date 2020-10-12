@@ -1,4 +1,3 @@
-{ "id":"v4iv3gqk3e8hv1vocoovsrmqc1cjkf99@import.calendar.google.com", "ics":"https://agenda.infn.it/event/22106/event.ics?detail=contributions", "color":"rm3", "indico":"https://agenda.infn.it/event/22106/", "name":"Newton Seminars"}
 { "id":"9k6circ2fvdg40r9ou7n4baoc86nsq9r@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/2387.ics?from=-31d", "color":"lnf", "indico":"https://indico.cern.ch/category/2387/", "name":"CERN TH BSM Forum"}
 { "id":"42lqmi0o3tcgo9psgel2lhuadiv1cm3m@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/3221.ics?from=-31d", "color":"lnf", "indico":"https://indico.cern.ch/category/3221/", "name":"CERN TH Collider Cross Talk"}
 { "id":"pasie5uus3846e5c8v0ektp7qt9nb5l7@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/100.ics?from=-31d", "color":"lnf", "indico":"https://indico.cern.ch/category/100/", "name":"CERN TH Colloquium"}
@@ -22,4 +21,6 @@
 { "id":"02cfnhb7sct7uftsukimo7a3v4@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Simons Bootstrap Collaboration"}
 { "id":"n8505gnsu0uiu0qiq0mfejbjn0@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Virtual lattice Field Theory Colloquium Series","link":"http://ctp.lns.mit.edu/latticecolloq/"}
 { "id":"kjjh1m0i7lkgj8tn8k57jrip1fja864a@import.calendar.google.com", "ics":"https://indico.in2p3.fr/export/categ/870.ics?from=-31d", "color":"lnf", "indico":"https://indico.in2p3.fr/category/870/", "name":"Virtual Particle Physics in Paris","link":"https://indico.in2p3.fr/category/870/"}
-{ "id":"12qg43etop3csccnmtg570eg2q95khs4@import.calendar.google.com", "ics":"https://www.ph.ed.ac.uk/ical/ppt.ics", "color":"lnf", "indico":"", "name":"Particle Physics Theory Seminars in Edinburgh", "link":"https://www.ph.ed.ac.uk/events/particle-physics-theory-seminars/"}
+{ "id":"v4iv3gqk3e8hv1vocoovsrmqc1cjkf99@import.calendar.google.com", "ics":"https://agenda.infn.it/event/22106/event.ics?detail=contributions", "color":"rm3", "indico":"https://agenda.infn.it/event/22106/", "name":"Newton Seminars"}
+{ "id":"v4iv3gqk3e8hv1vocoovsrmqc1cjkf99@import.calendar.google.com", "ics":"https://indico.cern.ch/export/categ/12744.ics?from=-31d?detail=contributions", "color":"lnf", "indico":"https://indico.cern.ch/category/12744/", "name":"All things EFT", "link":"https://sites.google.com/view/all-things-eft"}
+{ "id":"c_u0j7loic15n0qtaa7p819s486c@group.calendar.google.com", "ics":"", "color":"lnf", "indico":"", "name":"Gmunu seminars","link":"https://web.uniroma1.it/gmunu/events"}
