@@ -57,6 +57,7 @@ HTMLTableBody="<tbody>"
 #</table>"
 
 HTMLList=''
+OneLineList=''
 others=''
 with open(calendar_json, 'r') as f:
     lines = [line for line in f]
@@ -74,6 +75,7 @@ for line in lines:
         _Name=calendar_data["name"]
         HTMLTableBody+="<tr><td><a href=\""+_link+"\">"+_Name+"</a></td></tr>"
         HTMLList+="<li><a href=\""+_link+"\">"+_Name+"</a></li>"
+        OneLineList+="<a href=\""+_link+"\">"+_Name+"</a>, "
 
 
 HTMLTableBody+="</tbody></table>"
@@ -104,6 +106,10 @@ print(HTMLTable)
 print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 print('%%%%%%% HTML code for a LIST %%%%%%%%%')
 print(HTMLList)
+print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+print('%%%%%%% HTML code for a OneLineList %%%%%%%%%')
+print(OneLineList)
 print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 print('')
 print('')
