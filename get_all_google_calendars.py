@@ -4,9 +4,8 @@ This script is a sample and NOT indicative of Qxf2's programming habits.
 
 This script will:
 a) Connect to Google Calendar
-b) Get calendar ids for all Qxf2 employees
-c) Execute a search in a given hardcoded timeframe for all employees
-d) List any event with the word PTO in the summary
+b) Get calendar ids for all calendars (barring few hardocded ones)
+c) Execute a search in a given hardcoded timeframe for all calendars
 
 To setup, I followed this reference:
 https://developers.google.com/google-apps/calendar/quickstart/python
